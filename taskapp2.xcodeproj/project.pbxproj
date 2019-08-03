@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A255EA90E9A33A8A0DF9B4A /* Pods_taskapp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454B5F6337AE5265ED4984F0 /* Pods_taskapp2.framework */; };
 		FF4B93BE22F54AB9000CEE00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B93BD22F54AB9000CEE00 /* AppDelegate.swift */; };
 		FF4B93C022F54AB9000CEE00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B93BF22F54AB9000CEE00 /* ViewController.swift */; };
 		FF4B93C322F54AB9000CEE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4B93C122F54AB9000CEE00 /* Main.storyboard */; };
 		FF4B93C522F54ABA000CEE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4B93C422F54ABA000CEE00 /* Assets.xcassets */; };
 		FF4B93C822F54ABA000CEE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4B93C622F54ABA000CEE00 /* LaunchScreen.storyboard */; };
+		FF4B93D022F54DB8000CEE00 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B93CF22F54DB8000CEE00 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		454B5F6337AE5265ED4984F0 /* Pods_taskapp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAD84BF54E4EA060AB28F2E /* Pods-taskapp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp2.release.xcconfig"; path = "Target Support Files/Pods-taskapp2/Pods-taskapp2.release.xcconfig"; sourceTree = "<group>"; };
+		E62A8D8FECC55BFD24E5EA32 /* Pods-taskapp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp2.debug.xcconfig"; path = "Target Support Files/Pods-taskapp2/Pods-taskapp2.debug.xcconfig"; sourceTree = "<group>"; };
 		FF4B93BA22F54AB9000CEE00 /* taskapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4B93BD22F54AB9000CEE00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF4B93BF22F54AB9000CEE00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		FF4B93C422F54ABA000CEE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4B93C722F54ABA000CEE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF4B93C922F54ABA000CEE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4B93CF22F54DB8000CEE00 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A255EA90E9A33A8A0DF9B4A /* Pods_taskapp2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B8DE5D30F5D49480B366AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E62A8D8FECC55BFD24E5EA32 /* Pods-taskapp2.debug.xcconfig */,
+				8EAD84BF54E4EA060AB28F2E /* Pods-taskapp2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A999055E86E2F9B6C0BC51B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				454B5F6337AE5265ED4984F0 /* Pods_taskapp2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF4B93B122F54AB9000CEE00 = {
 			isa = PBXGroup;
 			children = (
 				FF4B93BC22F54AB9000CEE00 /* taskapp2 */,
 				FF4B93BB22F54AB9000CEE00 /* Products */,
+				16B8DE5D30F5D49480B366AB /* Pods */,
+				A999055E86E2F9B6C0BC51B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +87,7 @@
 				FF4B93C422F54ABA000CEE00 /* Assets.xcassets */,
 				FF4B93C622F54ABA000CEE00 /* LaunchScreen.storyboard */,
 				FF4B93C922F54ABA000CEE00 /* Info.plist */,
+				FF4B93CF22F54DB8000CEE00 /* InputViewController.swift */,
 			);
 			path = taskapp2;
 			sourceTree = "<group>";
@@ -71,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4B93CC22F54ABA000CEE00 /* Build configuration list for PBXNativeTarget "taskapp2" */;
 			buildPhases = (
+				08BD5F5FE0DA9353DCBA5AFA /* [CP] Check Pods Manifest.lock */,
 				FF4B93B622F54AB9000CEE00 /* Sources */,
 				FF4B93B722F54AB9000CEE00 /* Frameworks */,
 				FF4B93B822F54AB9000CEE00 /* Resources */,
+				18425C68CE3A412BD573CC59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +160,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08BD5F5FE0DA9353DCBA5AFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taskapp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18425C68CE3A412BD573CC59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taskapp2/Pods-taskapp2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taskapp2/Pods-taskapp2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taskapp2/Pods-taskapp2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF4B93B622F54AB9000CEE00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4B93D022F54DB8000CEE00 /* InputViewController.swift in Sources */,
 				FF4B93C022F54AB9000CEE00 /* ViewController.swift in Sources */,
 				FF4B93BE22F54AB9000CEE00 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +353,7 @@
 		};
 		FF4B93CD22F54ABA000CEE00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E62A8D8FECC55BFD24E5EA32 /* Pods-taskapp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +366,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.yukihide.suda.taskapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FF4B93CE22F54ABA000CEE00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAD84BF54E4EA060AB28F2E /* Pods-taskapp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.yukihide.suda.taskapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
