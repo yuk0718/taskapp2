@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		FF4B93C522F54ABA000CEE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4B93C422F54ABA000CEE00 /* Assets.xcassets */; };
 		FF4B93C822F54ABA000CEE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4B93C622F54ABA000CEE00 /* LaunchScreen.storyboard */; };
 		FF4B93D022F54DB8000CEE00 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B93CF22F54DB8000CEE00 /* InputViewController.swift */; };
+		FFC846AC22F5510300663FBD /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC846AB22F5510300663FBD /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FF4B93C722F54ABA000CEE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF4B93C922F54ABA000CEE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF4B93CF22F54DB8000CEE00 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		FFC846AB22F5510300663FBD /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				E62A8D8FECC55BFD24E5EA32 /* Pods-taskapp2.debug.xcconfig */,
 				8EAD84BF54E4EA060AB28F2E /* Pods-taskapp2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				FF4B93C622F54ABA000CEE00 /* LaunchScreen.storyboard */,
 				FF4B93C922F54ABA000CEE00 /* Info.plist */,
 				FF4B93CF22F54DB8000CEE00 /* InputViewController.swift */,
+				FFC846AB22F5510300663FBD /* Task.swift */,
 			);
 			path = taskapp2;
 			sourceTree = "<group>";
@@ -207,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC846AC22F5510300663FBD /* Task.swift in Sources */,
 				FF4B93D022F54DB8000CEE00 /* InputViewController.swift in Sources */,
 				FF4B93C022F54AB9000CEE00 /* ViewController.swift in Sources */,
 				FF4B93BE22F54AB9000CEE00 /* AppDelegate.swift in Sources */,
